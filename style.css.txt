@@ -1,0 +1,99 @@
+/* Resetting some browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    background-color: #f0d1f5;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.title {
+    font-size: 48px;
+    color: #ff7b8a;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Family Section */
+.family-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #ff7b8a;
+    margin-bottom: 30px;
+}
+
+.family-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.family-member {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.family-img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.family-name {
+    font-size: 22px;
+    color: #ff7b8a;
+    margin-bottom: 10px;
+}
+
+/* Introduction Section */
+.intro-section {
+    background-color: #e8f4fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.intro-section h2 {
+    font-size: 32px;
+    color: #ff7b8a;
+}
+
+.intro-section p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #555;
+}
